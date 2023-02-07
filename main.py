@@ -41,8 +41,8 @@ if percentage_difference > 2:
     for article in msg_to_sent:
         message = client.messages.create(
         body=f"{article}",
-        from_="+16089753769",
-        to="+201203846717"
+        from_="",
+        to=""
         )    
 
 
